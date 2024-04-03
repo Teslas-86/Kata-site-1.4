@@ -23,6 +23,7 @@ body {
 }
 
 .button {
+    padding: 0;
     border: none;
     background-color: #FFFFFF;
     cursor: pointer;
@@ -143,6 +144,10 @@ body {
     list-style: none;
     gap: 7px;
     padding-bottom: 32px;
+}
+
+.lang__item {
+    color: #000;
 }
 
 .lang__item--active {
