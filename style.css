@@ -117,7 +117,7 @@ body {
     height: 32px;
     border-radius: 4px;
     position: absolute;
-    left: -28px;
+    left: -20px;
     top: -5px;
 }
 
@@ -175,5 +175,9 @@ body {
 
     .mobile_menu {
         width: 360px;
+    }
+
+    .mobile_menu_nav__link--active::before {
+        left: -28px;
     }
 }
