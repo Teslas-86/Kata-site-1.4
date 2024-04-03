@@ -20,6 +20,7 @@
 body {
     background-color: #FFFFFF;
     font-family: "TT Lakes Medium";
+    min-width: 320px;
 }
 
 .button {
