@@ -9,63 +9,81 @@
 </head>
 <body>
     <section class="shadow_right">
-    <div class="mobile_menu">
-        <div class="content">
-    <header class="mobile_menu_header flex">
-        <nav class="mobile_menu_header__navigation flex">
-        <div class="mobile_menu_header__container flex">
-            <button class="button button--close_burger">
-                <img src="imgs/burger_close.svg" alt="" class="button_image">
-            </button>
-            <button class="button button--logo">
-                <img src="imgs/logo.svg" alt="" class="logo mobile-menu_logo">
-            </button>
-        </div>
-        <div class="mobile_menu_header__container flex">
-            <button class="button button--search">
-                <img src="imgs/search.svg" alt="" class="button_image">
-            </button>
-        </div>
-    </nav>
-    </header>
-    <nav class="mobile_menu_nav">
-        <ul class="mobile_menu_nav__list">
-            <li class="mobile_menu_nav__item"><a href="#" class="mobile_menu_nav__link mobile_menu_nav__link--active">Ремонт техники</a></li>
-            <li class="mobile_menu_nav__item"><a href="#" class="mobile_menu_nav__link">Услуги и сервисы</a></li>
-            <li class="mobile_menu_nav__item"><a href="#" class="mobile_menu_nav__link">Корпоративным клиентам</a></li>
-            <li class="mobile_menu_nav__item"><a href="#" class="mobile_menu_nav__link">Продавцам техники</a></li>
-            <li class="mobile_menu_nav__item"><a href="#" class="mobile_menu_nav__link">Партнерам</a></li>
-            <li class="mobile_menu_nav__item"><a href="#" class="mobile_menu_nav__link">Производителям</a></li>
-            <li class="mobile_menu_nav__item"><a href="#" class="mobile_menu_nav__link">Наши сервисные центры</a></li>
-            <li class="mobile_menu_nav__item"><a href="#" class="mobile_menu_nav__link">Контакты</a></li>
-        </ul>
-    </nav>
-</div>
-    <footer class="mobile_menu_footer">
-        <div class="contants">
-            <div class="mobile_menu__buttons_container flex">
-                <button class="button button--call">
-                    <img src="imgs/call.svg" alt="" class="button_image">
-                </button>
-                <button class="button button--chat">
-                    <img src="imgs/chat.svg" alt="" class="button_image">
-                </button>
-                <button class="button button--profile">
-                    <img src="imgs/profile.svg" alt="" class="button_image">
-                </button>
+        <div class="mobile_menu">
+            <div class="content">
+                <header class="mobile_menu_header flex">
+                    <nav class="mobile_menu_header__navigation flex">
+                        <button class="button button_close_burger button_close_burger--aside">
+                            <img src="imgs/burger_close.svg" alt="" class="button_image">
+                        </button>
+                        <a class="logo logo--aside">
+                            <img src="imgs/logo.svg" alt="" class="logo__image">
+                        </a>
+                        <button class="button button_search button_search--aside">
+                            <img src="imgs/search.svg" alt="" class="button_image">
+                        </button>
+                    </nav>
+                </header>
+                <nav class="mobile_menu_nav">
+                    <ul class="mobile_menu_nav__list list_reset">
+                        <li class="mobile_menu_list__item">
+                            <a href="#" class="mobile_menu_list__link mobile_menu_list__link--active">Ремонт техники</a>
+                        </li>
+                        <li class="mobile_menu_list__item">
+                            <a href="#" class="mobile_menu_list__link">Услуги и сервисы</a>
+                        </li>
+                        <li class="mobile_menu_list__item">
+                            <a href="#" class="mobile_menu_list__link">Корпоративным клиентам</a>
+                        </li>
+                        <li class="mobile_menu_list__item">
+                            <a href="#" class="mobile_menu_list__link">Продавцам техники</a>
+                        </li>
+                        <li class="mobile_menu_list__item">
+                            <a href="#" class="mobile_menu_list__link">Партнерам</a>
+                        </li>
+                        <li class="mobile_menu_list__item">
+                            <a href="#" class="mobile_menu_list__link">Производителям</a>
+                        </li>
+                        <li class="mobile_menu_list__item">
+                            <a href="#" class="mobile_menu_list__link">Наши сервисные центры</a>
+                        </li>
+                        <li class="mobile_menu_list__item">
+                            <a href="#" class="mobile_menu_list__link">Контакты</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <div class="mail">mail@cps.com</div>
-            <div class="phone">8 800 890 8900</div>
+            <footer class="mobile_menu_footer">
+                <div class="mobile_menu__buttons_container flex">
+                    <button class="button button--call">
+                        <img src="imgs/call.svg" alt="" class="button_image">
+                    </button>
+                    <button class="button button--chat">
+                        <img src="imgs/chat.svg" alt="" class="button_image">
+                    </button>
+                    <button class="button button--profile">
+                        <img src="imgs/profile.svg" alt="" class="button_image">
+                    </button>
+                </div>
+                <ul class="contants list_reset">
+                    <li class="mail">mail@cps.com</li>
+                    <li class="phone">8 800 890 8900</li>
+                </ul>
+                <div class="lang">
+                    <ul class="lang__list flex">
+                        <li class="lang__item lang__item--active">
+                            <button class="lang_button button">RU</button>
+                        </li>
+                        <li class="lang__item">
+                            <button class="lang_button button">EN</button>
+                        </li>
+                        <li class="lang__item">
+                            <button class="lang_button button">CH</button>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
         </div>
-        <div class="lang">
-            <ul class="lang__list flex">
-                <button class="lang_button button"><li class="lang__item lang__item--active">RU</li></button>
-                <button class="lang_button button"><li class="lang__item">EN</li></button>
-                <button class="lang_button button"><li class="lang__item">CH</li></button>
-            </ul>
-        </div>
-    </footer>
-</div>
-</section>
+    </section>
 </body>
 </html>
